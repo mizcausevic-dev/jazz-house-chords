@@ -1,0 +1,30 @@
+{
+  "label": "preview, not a master.",
+  "preview_path": "preview/jazz-house-chords-simple-synth-preview.mp3",
+  "preview_sha256": "961ac44299e9882c535058f7b21a3f3a1522d7ab2f2f860f3c457c0bff567ff0",
+  "source_midi_path": "midi/jh01-velvet-room/jh01-velvet-room-combined.mid",
+  "source_midi_sha256": "12a8d0d7c56239622d5d9c2ddb2d15414e426d43434d8e5d77a8e4eb37991861",
+  "renderer": "release-simple-synth 1.0.0",
+  "renderer_configuration": {
+    "sample_rate": 44100,
+    "source_tracks": [
+      "chord_pulse",
+      "counter_texture",
+      "drums",
+      "principal_motif",
+      "sub_bass",
+      "vocal_like_synth"
+    ],
+    "processing": "Per-voice synthesis and envelopes; summed samples are clamped to +/-0.95, converted to 16-bit stereo PCM and encoded to 192 kb/s MP3."
+  },
+  "selection": {
+    "study": "jh01",
+    "start_seconds": 0,
+    "end_seconds": 62.951
+  },
+  "measurement": {
+    "sample_peak": 0.107174,
+    "not_lufs_or_true_peak": true
+  },
+  "limitations": "Automated generation and decode checks only. Nobody auditioned this simple-synthesis preview. It is not a finished-production sound or master."
+}

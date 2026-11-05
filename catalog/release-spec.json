@@ -1,0 +1,84 @@
+{
+  "pack_identifier": "jazz-house-chords",
+  "display_name": "Jazz House Chords Studies",
+  "brief_name": "Jazz House Chords",
+  "creative_intention": "Seventh and ninth-inspired rootless keyboard voicings and moving bass.",
+  "rhythmic_direction": "Offbeat keys and a steady house pulse.",
+  "palette": "Extended keys, bass, melodic accents and drums.",
+  "guardrail": "Original symbolic studies; genre labels are production directions, not cultural authority.",
+  "generator_version": "release-train-1.0.0",
+  "reproducible_command": "python tools/build_release.py --pack jazz-house-chords",
+  "actual_tempo_bpm": 122,
+  "meter": "4/4",
+  "ppq": 480,
+  "end_tick": 61440,
+  "roles": [
+    {
+      "role": "chord_pulse",
+      "wire_channel": 0,
+      "user_facing_channel": 1,
+      "polyphony_cap": 3
+    },
+    {
+      "role": "sub_bass",
+      "wire_channel": 1,
+      "user_facing_channel": 2,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "principal_motif",
+      "wire_channel": 2,
+      "user_facing_channel": 3,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "vocal_like_synth",
+      "wire_channel": 3,
+      "user_facing_channel": 4,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "counter_texture",
+      "wire_channel": 4,
+      "user_facing_channel": 5,
+      "polyphony_cap": 2
+    },
+    {
+      "role": "drums",
+      "wire_channel": 9,
+      "user_facing_channel": 10,
+      "polyphony_cap": 4
+    }
+  ],
+  "studies": [
+    {
+      "id": "jh01",
+      "title": "Velvet Room",
+      "tonic": "D",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    },
+    {
+      "id": "jh02",
+      "title": "Blue Steps",
+      "tonic": "F",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    },
+    {
+      "id": "jh03",
+      "title": "Amber Fifth",
+      "tonic": "G#",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    },
+    {
+      "id": "jh04",
+      "title": "After Hours",
+      "tonic": "D#",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    }
+  ],
+  "limitations": [
+    "Original symbolic material; no samples.",
+    "Automated validation is technical evidence, not copyright clearance.",
+    "The listening file is a simple-synthesis preview, not a master."
+  ]
+}
