@@ -278,8 +278,8 @@
     },
     {
       "path": "downloads/jazz-house-chords-midi.zip",
-      "bytes": 38688,
-      "sha256": "d82df81f9221bf1492fef16517786ee2d6a4981410964acd1a531230dc743a51"
+      "bytes": 39675,
+      "sha256": "c4d5cbfec36ecec52ddd2abf3dbb442c094daa6ceeaef6752ebc88925bc05e93"
     },
     {
       "path": "film/motion-note-roll.png",
@@ -313,8 +313,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9770,
-      "sha256": "b23c6e13e9f2e1db32d8f30c62d01bfbee1b0a956a201c49855f1633b956db9f"
+      "bytes": 9960,
+      "sha256": "ff3b502ea2e671bd4f49d1fbb8adf5d4f9ce1c78f0c5c961c9b9d930cd64d576"
     },
     {
       "path": "midi/jh01-velvet-room/chord_pulse.mid",
@@ -457,6 +457,11 @@
       "sha256": "2a9a55ee40e0481dad2d7c6ee0d5b95d58dc50fcd677ded69defc45dddc2d6da"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
       "path": "preview/jazz-house-chords-simple-synth-preview.mp3",
       "bytes": 1524132,
       "sha256": "961ac44299e9882c535058f7b21a3f3a1522d7ab2f2f860f3c457c0bff567ff0"
@@ -468,8 +473,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4034,
-      "sha256": "0d7deffe41e3e206a8d4b9264bcda86dc901be6bc582fee770205c0dc7ed2b93"
+      "bytes": 4149,
+      "sha256": "c8afa430b656b125d409020b7b3956aa5c9e78d17691167e57b8066326fbce60"
     },
     {
       "path": "REVISION.md",
